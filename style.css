@@ -33,37 +33,3 @@ button:active {
     box-shadow: 0;
     transform: translate(2px, 2px);
 }
-.link{
-position:fixed ;
-  top:87%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  background-color:transparent ;
-width:300px;
-text-align:center;
-  color:black;
-  font-weight:999;
-  font-size:4vw;
-  height:45px ;
-  font-size:20px;
-  padding-top:5px;
-  border-radius:10px;
- margin-bottom:5vw;
- 
-
- animation:anim 1s linear infinite  ;
-}
-@keyframes anim{
-    0%{
-        border-top:3px solid blueviolet;
-    }
-    25%{
-        border-left:3px solid blueviolet;
-    }
-    50%{
-        border-bottom:3px solid blueviolet;
-    }
-    75%{
-        border-right:3px solid blueviolet;
-}
-
